@@ -1,0 +1,84 @@
+body {
+	cursor: url("/images/cursor.png"), default;
+	border: 2px;
+	border-style: solid;
+	border-color: #7686bc;
+	margin: 0%;
+	font-family: Comic Sans MS;
+	background-image: url("https://file.garden/aKJgk98a5yGAHyqE/bgyay.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #7686bc;
+	text-shadow: 2px 2px #2e237d;
+	text-align: center;
+	font-size-adjust: 0.5;
+	background-position: right top;
+	image-rendering: pixelated;
+}
+@font-face {
+	font-family: "Comic Sans MS";
+	src:
+		local("MS Comic Sans"),
+		url("/fonts/MS Comic sans.ttf") format("TrueType");
+}
+h1 {
+	border: 2px;
+	border-style: solid;
+	border-color: #7686bc;
+	background-color: #02020d;
+}
+a:link {
+	color: cyan;
+	text-shadow: 2px 2px rgb(0, 0, 140);
+}
+a:hover {
+	cursor: url("/images/pointer.png"), default;
+	text-transform: uppercase;
+}
+a:active {
+	color: #2816a7;
+	text-shadow: 2px 2px rgb(40, 0, 40);
+}
+a:visited {
+	color: cyan;
+}
+audio {
+	border-color: white;
+	background-color: black;
+	border: 2px;
+	border-style: solid;
+}
+:root{
+  	scroll-behavior: smooth;
+  	background-color: black;
+}
+textarea {
+	border-color: #7686bc;
+	color: #7686bc;
+	background-color: #02020d;
+	font-weight: bold;
+}
+#button:hover {
+	cursor: url("/images/pointer.png"), default;
+}
+#emoji {
+	width: 25px;
+}
+#audiojs:hover {
+	cursor: url("/images/cursor.png"), default;
+}
+#audioControl {
+	border: 2px;
+	border-style: solid;
+	border-color: #7686bc;
+	background-color: #02020d;
+	font-size-adjust: 1;
+	padding: 25px;
+}
+#audiojs:hover {
+	cursor: url("/images/pointer.png"), default;
+}
+.userbox {
+	font-family: Sans-Serif;
+	text-align: center;
+}

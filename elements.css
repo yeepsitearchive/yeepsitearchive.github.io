@@ -1,0 +1,49 @@
+/* 
+    Don't use this file to edit your site style! Create a different CSS file for that.
+    This file defines how custom elements (like sitebox) will look like.
+    Setting CSS that breaks main nekoweb site on purpose is prohibited and may result in ban and site deletion! 
+*/
+
+/* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://nekoweb.org/assets/siteboxes.png */
+.site-box {
+    background-image: url("https://yeepsite.nekoweb.org/yeepsite.nekoweb.org/images/Siteboxs.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    font-family: none;
+}
+.site-box > a {
+	opacity: 0;
+}
+.site-box > a > p {
+	opacity: 0;
+}
+.sitebox > a {
+	opacity: 0;
+}
+.sitebox:hover {
+	cursor: url("https://yeepsite.nekoweb.org/images/pointer.png"), default;
+}
+.follow {
+	color: white;
+	background-color: black;
+	border-color: white;
+	font-family: url("/fonts/MS Comic sans.ttf");
+}
+.follow:hover {
+	color: cyan;
+	border-color: cyan;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: url("https://yeepsite.nekoweb.org/yeepsite.nekoweb.org/images/pointer.png"), default;
+}
+
+/* Style for your post box (must start with ".post-box") */
+.post-box {
+    background-color: rgb(110, 0, 173);
+    border: 4px solid rgb(110, 0, 173);
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(110, 0, 173);
+    opacity: 0;
+}
+
